@@ -1,0 +1,21 @@
+{
+  "name": "postmaster-bot-telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "mongoose": "^8.4.4",
+    "openai": "^4.52.3",
+    "telegraf": "^4.16.3"
+  }
+}
